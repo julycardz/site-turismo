@@ -1,0 +1,170 @@
+
+
+<!-- ARQUIVO HTML -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra Minas - Sua Aventura Começa Aqui</title>
+   <link rel="stylesheet" href="style.css">
+   
+  
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+</head>
+<body>
+
+<header> 
+    <nav>
+    <ul>
+    <div class="logo">
+      <img src="photo_2023-09-27_16-04-13-removebg-preview-2-_1_.webp" alt=""></div>    
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#roteiros">Roteiros</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+    
+<main class="hero" id="inicio">
+        <h1>Descubra as Maravilhas de Minas Gerais</h1>
+        <p>Experiências únicas em destinos históricos e naturais</p>
+        <a href="#roteiros" class="cta-button">Conheça Nossos Pacotes</a>
+</main>
+
+
+
+    <section class="roteiros" id="roteiros">
+        <h2>Destinos Populares</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="imagens/ouro-preto.jpg" alt="Ouro Preto">
+                <div class="card-content">
+                    <h3>Ouro Preto</h3>
+                    <p>Cidade histórica com arquitetura colonial e igrejas barrocas</p>
+                    <div class="preco">A partir de R$ 799</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imagens/diamantina.jpg" alt="Diamantina">
+                <div class="card-content">
+                    <h3>Diamantina</h3>
+                    <p>Gastronomia mineira e artesanato local em cenário histórico</p>
+                    <div class="preco">A partir de R$ 699</div>
+                </div>
+            </div>
+
+            <div class="card">
+                
+                <img src="imagens/serra.jpg" alt="Serra do Cipó">
+                <div class="card-content">
+                    <h3>Serra do Cipó</h3>
+                    <p>Cachoeiras, trilhas e paisagens deslumbrantes</p>
+                    <div class="preco">A partir de R$ 899</div>
+                </div>
+            </div>
+            <div class="card">
+                
+                <img src="imagens/capitolio.jpg" alt="Capitolio">
+                <div class="card-content">
+                    <h3>Capitólio</h3>
+                    <p>Cachoeiras, trilhas e paisagens deslumbrantes</p>
+                    <div class="preco">A partir de R$ 899</div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <main class="hero" id="inicio">
+        <h1>Quem Somos</h1>
+        <p>Experiências únicas em destinos históricos e naturais</p>
+        <a href="#roteiros" class="cta-button">Conheça Nossos Pacotes</a>
+</main>
+
+
+<!-- depoimentos-->
+
+
+
+
+
+    <section class="depoimentos" id="depoimentos">
+        <h2>O que nossos clientes dizem</h2>
+        <div class="testimonials-container">
+            <button class="nav-btn prev-btn" onclick="changeSlide(-1)">&#10094;</button>
+            
+            <div class="testimonials-wrapper">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-box">
+                        <div class="quote-icon">❝</div>
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80" alt="Cliente 1" class="client-image">
+                        <p class="testimonial-text">"Uma experiência incrível! Conhecer Minas Gerais com esta agência foi a melhor escolha que fizemos. Atendimento excepcional e roteiros bem planejados."</p>
+                        <div class="client-info">
+                            <h4>Maria Silva</h4>
+                            <p>Visitou Ouro Preto</p>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="testimonial-slide">
+                    <div class="testimonial-box">
+                        <div class="quote-icon">❝</div>
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d" alt="Cliente 2" class="client-image">
+                        <p class="testimonial-text">"Os passeios foram muito bem organizados, cada detalhe foi pensado. A gastronomia mineira é realmente especial!"</p>
+                        <div class="client-info">
+                            <h4>João Santos</h4>
+                            <p>Visitou Tiradentes</p>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="testimonial-slide">
+                    <div class="testimonial-box">
+                        <div class="quote-icon">❝</div>
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" alt="Cliente 3" class="client-image">
+                        <p class="testimonial-text">"As cachoeiras da Serra do Cipó são deslumbrantes! Os guias são muito preparados e atenciosos."</p>
+                        <div class="client-info">
+                            <h4>Ana Oliveira</h4>
+                            <p>Visitou Serra do Cipó</p>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <button class="nav-btn next-btn" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    
+        <div class="dots-container">
+            <span class="dot active" onclick="goToSlide(0)"></span>
+            <span class="dot" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+        </div>
+    </section>
+
+    
+   
+   
+   
+   
+   
+    <footer>
+        <p>© 2024 Descubra Minas e Turismo - Sua Agência de Turismo em Minas Gerais</p>
+        <p>Contato: (31) 9999-9999 | contato@descubraminas.com.br</p>
+    </footer>
+</body>
+
+
+<script src="scripts.js"> </script>
+</html>
