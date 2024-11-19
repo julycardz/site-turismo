@@ -39,6 +39,14 @@
 
 @media (max-width: 870px){
 
+    .caixinha{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
     .content {
         justify-content: space-between;
         padding: 0px 40px;

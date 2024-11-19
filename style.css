@@ -204,16 +204,25 @@ main {
 }
 
 
-.caixinha {
-    background-color:#036096;
+.saiba-mais {
+    background-color:#27678b;
     color: #ffffff;
+
     padding: 10px 10px 10px;
     
     margin: 30px;
     width: 250px;
     border-radius: 10px;
+    border: none;
+   
+ 
+
+
+    
     
 }
+
+
 .preco {
     color: #036096;
     font-size: 1.5rem;
