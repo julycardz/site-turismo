@@ -58,7 +58,7 @@ body{
 header.content{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     position: fixed;
     width: 100vw;
     background-color: rgba(255,255,255,0.95);
@@ -74,7 +74,8 @@ header.content{
 .content .list-menu {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
+    padding: 0 30px;
     list-style: none;
     gap: 30px;
     width: 100vw;
