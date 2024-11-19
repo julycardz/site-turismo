@@ -79,7 +79,7 @@
         left: 0;
         width: 50vw;
         height: 100vh;
-        background-color: #0a024bfd;
+        background-color: #c9c9c9ec;
         z-index: 99;
 
         display: flex;
@@ -89,32 +89,37 @@
 
     .content.on .logo {
         display: none;
+      
     }
 
     .content.on .menu-toggle {
         position: absolute;
         right: 40px;
         top: 20px;
+       
     }
 
     .content.on .list-menu {
         display: block;
+        margin-bottom: 280px;
+        margin-left: 50px;
         
     }
 
     .content.on .list-menu li {
-        text-align: center;
         display: flex;
-    
         justify-content: center;
         margin-left: -150px;
+        align-items: start;
+        margin-top: 20px;
         
     }
 
     .content.on .list-menu li a {
-        font-size: 2rem;
-        color: #ffffff;
+        font-size: 1.7rem;
+        color: #000000;
         display: block;
+        
     }
 
 
