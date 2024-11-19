@@ -133,6 +133,7 @@ main {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    font-size: 1rem;
     transition: background-color 0.3s;
 }
 
@@ -187,18 +188,37 @@ main {
     margin-bottom: 10px;
     color: #333;
     font-size: 1.4rem;
+    text-align: center;
 }
 
 .card p {
     color: #666;
     margin-bottom: 20px;
     font-size: 0.8rem;
+    text-align: center;
 }
 
+.card h1{
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.caixinha {
+    background-color:#036096;
+    color: #ffffff;
+    padding: 10px 10px 10px;
+    
+    margin: 30px;
+    width: 250px;
+    border-radius: 10px;
+    
+}
 .preco {
     color: #036096;
     font-size: 1.5rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .depoimentos {
