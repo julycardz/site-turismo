@@ -77,9 +77,9 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100vw;
+        width: 50vw;
         height: 100vh;
-        background-color: #f5e8f5;
+        background-color: #0a024bfd;
         z-index: 99;
 
         display: flex;
@@ -105,14 +105,15 @@
     .content.on .list-menu li {
         text-align: center;
         display: flex;
+    
         justify-content: center;
-        margin-left: -20px;
+        margin-left: -150px;
         
     }
 
     .content.on .list-menu li a {
         font-size: 2rem;
-        
+        color: #ffffff;
         display: block;
     }
 
