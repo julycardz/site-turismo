@@ -79,7 +79,7 @@
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-color: #1f1e1f;
+        background-color: #f5e8f5;
         z-index: 99;
 
         display: flex;
@@ -111,7 +111,8 @@
     }
 
     .content.on .list-menu li a {
-        font-size: 1rem;
+        font-size: 2rem;
+        
         display: block;
     }
 
