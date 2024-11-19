@@ -1,0 +1,133 @@
+@media (max-width: 768px) {
+    .testimonial-box {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .nav-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .testimonial-text {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+  
+
+    .inicio h1 {
+        font-size: 36px;
+    }
+
+    .inicio p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 870px){
+
+    .content {
+        justify-content: space-between;
+        padding: 0px 40px;
+    }
+
+    .content .list-menu{
+        display: none;
+    }
+
+    .container-inicio h1{
+        color: #000000;
+        font-size: 3.1rem;
+        margin-bottom: 1rem;
+    }
+    
+
+    .one,
+    .two,
+    .three {
+        width: 100%;
+        height: 4px;
+        background-color: rgb(0, 0, 0);
+        margin: 6px auto;
+
+        transition-duration: 0.5s ;
+    }
+
+    .menu-toggle {
+        width: 40px;
+        height: 30px;
+        
+
+    }
+
+    .content.on {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #1f1e1f;
+        z-index: 99;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content.on .logo {
+        display: none;
+    }
+
+    .content.on .menu-toggle {
+        position: absolute;
+        right: 40px;
+        top: 20px;
+    }
+
+    .content.on .list-menu {
+        display: block;
+        
+    }
+
+    .content.on .list-menu li {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-left: -20px;
+        
+    }
+
+    .content.on .list-menu li a {
+        font-size: 1rem;
+        display: block;
+    }
+
+
+    .content.on .menu-toggle .one {
+        transform: rotate(45deg) translate(8px, -7px);
+    }
+    .content.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .content.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(20px, -6px);
+    }
+
+
+
+    
+}
