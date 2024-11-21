@@ -42,16 +42,29 @@ header.content{
     
 }
 
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-size: 2rem;
+    user-select: none;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    z-index: 1;
+    font-size: 30px;
+}
+
 .botao-burguer{
 
     border: none;
     background-color: transparent;
 
     
-}
-
-#itens{
-    display: block;
 }
 
 

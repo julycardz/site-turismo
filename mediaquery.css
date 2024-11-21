@@ -49,6 +49,10 @@
     }
     
 
+    .content {
+        display: none;
+    }
+
     
 
     
@@ -81,30 +85,34 @@
 
 
 
+@media screen and (min-width:1024px) {
+  
+    .content .list-menu {
+        display: none;
+    }
+
+  .logo{
+        width: 100%;
+       
+    }   
+
+   
+
+}
+
+
 @media screen and (max-width:1024px) {
   
     .content .list-menu{
         display: none;
     }
 
-    .logo{
+  .logo{
         width: 100%;
        
     }   
 
-    .menu-mobile{
-        display: none;
-    }
+   
 
 }
 
-/*menu mobile*/
-
-@media screen and (min-width: 1024px){
-    .list-menu{
-        display: none;
-    }
-
-    
- 
-}
