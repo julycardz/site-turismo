@@ -125,9 +125,14 @@ header.content{
 .menu-mobile{
     position: absolute;
     left: 0;
-    width: 100%;
+    width: 50%;
     height: 100vh;
-    top: 10;
+    top: 0;
+   background:#a7a8ac;
+   z-index: -1;
+   display: flex;
+ 
+
     
    
 }
@@ -136,17 +141,20 @@ header.content{
 .menu-mobile a{
   color: #000000;
   display: block;
-  padding: 20px 30px;
+  padding: 0px 10px;
   font-size: 1rem;
- 
-    
+  margin-top: 60px;
+  margin-bottom: -40px;
+
 }
 
+
+
 .fa-3x{
-    position: relative;
-    display: block;
-    top: -10px;
+    position: absolute;
+   top: 0;
     left: 10px;
+
 
     
 }
