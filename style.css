@@ -27,34 +27,6 @@ body{
 }
 
 
-/* Estilo do botão flutuante */
-.whatsapp-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #25D366; /* Cor verde do WhatsApp */
-    padding: 15px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
-}
-
-/* Estilo da imagem do WhatsApp */
-.whatsapp-btn img {
-    width: 30px;
-    height: 30px;
-}
-
-/* Efeito de hover */
-.whatsapp-btn:hover {
-    background-color: #128C7E; /* Cor escura do WhatsApp */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-
 header.content{
     display: flex;
     align-items: center;
@@ -88,6 +60,74 @@ header.content{
     text-transform: uppercase;
     
 }
+
+/* Estilo do botão flutuante */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366; /* Cor verde do WhatsApp */
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+/* Estilo da imagem do WhatsApp */
+.whatsapp-btn img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Efeito de hover */
+.whatsapp-btn:hover {
+    background-color: #128C7E; /* Cor escura do WhatsApp */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+/*estilização mobile */
+
+.menu-mobile{
+    background-color: #0000007c;
+    position: absolute;
+    top: 30;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur (10px);
+   
+}
+
+
+.menu-mobile a{
+  color: #f5f5f5;
+  display: block;
+  padding: 20px 30px;
+  font-size: 1rem;
+    
+}
+
+@media screen and (max-width: 1030px){
+.list-menu{
+display: none;
+
+}
+
+.logo{
+    width: 100%;
+    
+}
+
+    
+}
+
 
 .inicio {
     width: 100%;
