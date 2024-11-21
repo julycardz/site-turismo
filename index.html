@@ -18,7 +18,9 @@
 <div class="container">
  <!-- Início Header-->
  <header class="content"> 
-    <div class="burguer"><i class="fa-solid fa-bars"></i></div>
+    <button onclick="clickMenu()"  class="botao-burguer">
+        <div class="fa-3x"><i class="fa-solid fa-bars"></i> </i></div>
+    </button>
     <div class="logo"> </div>
 
 
@@ -33,16 +35,10 @@
             <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
-<button id="btn-menu"> 
-<span class="linha"></span>
-<span class="linha"></span>
-<span class="linha"></span>
 
-
-</button>
 
     <nav>
-        <ul class="menu-mobile">
+        <ul class="menu-mobile" id="itens">
           
                 <li><a href="#inicio">inicio</a></li>
                 <li><a href="#roteiros">Roteiros</a></li>

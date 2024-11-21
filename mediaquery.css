@@ -1,9 +1,6 @@
-
+/* Regras para telas pequenas (máximo de 768px) */
 @media (max-width: 768px) {
-   
-
-  
-
+    /* Estilos para a seção de início */
     .inicio h1 {
         font-size: 36px;
     }
@@ -11,45 +8,12 @@
     .inicio p {
         font-size: 18px;
     }
-}
 
-@media (max-width: 870px){
-
-    .caixinha{
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
+    /* Estilo para o menu */
+    .list-menu {
+        display: none; /* Esconde o menu em telas pequenas */
     }
 
-    .content {
-        justify-content: space-between;
-        padding: 0px 40px;
-    }
-
- 
-
-    .container-inicio h1{
-        color: #000000;
-        font-size: 3.1rem;
-        margin-bottom: 1rem;
-    }
-    
-
-    
-
-    
-
-}
-
-
-
-
-
-
-
-@media (max-width: 768px) {
     .testimonial-box {
         padding: 20px;
         margin: 10px;
@@ -65,29 +29,41 @@
         font-size: 16px;
     }
 }
-  
 
-
-
-@media screen and (max-width:1024px) {
-  
-    .content .list-menu{
-        display: none;
+/* Regras para telas de até 870px */
+@media (max-width: 870px) {
+    .caixinha {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .logo{
-        width: 100%;
-       
-    }   
+    .content {
+        justify-content: space-between;
+        padding: 0px 40px;
+    }
 
+    .container-inicio h1 {
+        color: #000000;
+        font-size: 3.1rem;
+        margin-bottom: 1rem;
+    }
 }
 
-/*menu mobile*/
-
-@media screen and (min-width: 1024px){
-    .menu-mobile{
-        display: none;
+/* Regras para telas de até 1024px */
+@media screen and (max-width: 1024px) {
+    .content .list-menu {
+        display: none; /* Esconde o menu em telas grandes, mas menores que 1024px */
     }
+    .logo {
+        width: 100%;
+    }
+}
 
- 
+/* Menu Mobile para telas maiores que 1024px */
+@media screen and (min-width: 1024px) {
+    .menu-mobile {
+        display: none; /* Esconde o menu mobile em telas maiores */
+    }
 }
