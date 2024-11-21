@@ -36,6 +36,7 @@ header.content{
     padding: 20px;
     z-index: 99;
     top: 0;
+
     transition: top 0.3s ease-in-out;
  
     
@@ -52,6 +53,7 @@ header.content{
 #itens{
     display: block;
 }
+
 
 
 
@@ -120,7 +122,6 @@ header.content{
 
 .menu-mobile a{
   color: #000000;
-  background-color: #00000034;
   display: block;
   padding: 20px 30px;
   font-size: 1rem;
@@ -144,10 +145,7 @@ header.content{
     background-color: #8080807c;
 }
 
-.menu-burguer{
-    background-color: #25D366;
-    width: 100px;
-}
+
 
 .inicio {
     width: 100%;

@@ -1,8 +1,20 @@
 
+
+
+
+@media screen and(min-width: 768px) {
+    .list-menu{
+        display: none;
+       }
+}
 @media (max-width: 768px) {
+
+
    
 
-  
+   .list-menu{
+    display: none;
+   }
 
     .inicio h1 {
         font-size: 36px;
@@ -80,14 +92,19 @@
        
     }   
 
+    .menu-mobile{
+        display: none;
+    }
+
 }
 
 /*menu mobile*/
 
 @media screen and (min-width: 1024px){
-    .menu-mobile{
+    .list-menu{
         display: none;
     }
 
+    
  
 }

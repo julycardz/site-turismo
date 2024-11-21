@@ -26,3 +26,5 @@ window.addEventListener('resize', function() {
 window.onload = function() {
     mudaoTamanho();  // Ajusta o estado do menu no carregamento da página
 };
+
+
