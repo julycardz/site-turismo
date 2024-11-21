@@ -1,10 +1,6 @@
 
 @media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
-    }
+   
 
   
 
@@ -32,7 +28,7 @@
         padding: 0px 40px;
     }
 
-    
+ 
 
     .container-inicio h1{
         color: #000000;
@@ -69,18 +65,29 @@
         font-size: 16px;
     }
 }
-
-
-
-@media screen and (max-width:1030px) {
   
-    .list-menu{
-      display: none;
-        
 
+
+
+@media screen and (max-width:1024px) {
+  
+    .content .list-menu{
+        display: none;
     }
 
+    .logo{
+        width: 100%;
+       
+    }   
 
 }
 
-/*
+/*menu mobile*/
+
+@media screen and (min-width: 1024px){
+    .menu-mobile{
+        display: none;
+    }
+
+ 
+}
