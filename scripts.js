@@ -1,11 +1,14 @@
 var itens = document.getElementById('itens');
 
+var burguer = document.getElementById('botao-burguer')
 function mudaoTamanho() {
     if (window.innerWidth >= 768) {
         itens.style.display = 'none';  // Exibe o menu em telas grandes
     } else {
         itens.style.display = 'none';   // Esconde o menu em telas pequenas
     }
+
+   
 }
 
 function clickMenu() {
@@ -26,3 +29,9 @@ window.addEventListener('resize', function() {
 window.onload = function() {
     mudaoTamanho();  // Ajusta o estado do menu no carregamento da página
 };
+
+
+
+const img = document.getElementById('img');
+
+

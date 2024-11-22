@@ -10,9 +10,6 @@
 
    
 
-   .list-menu{
-    display: none;
-   }
 
     .inicio h1 {
         font-size: 36px;
@@ -47,7 +44,6 @@
     }
     
 
-    
 
     
 
@@ -74,6 +70,8 @@
     .testimonial-text {
         font-size: 16px;
     }
+
+  
 }
   
 
@@ -84,12 +82,18 @@
         display: none;
     }
 
+    
+
+    
+
   .logo{
         width: 100%;
+     
        
     }   
 
    
 
 }
+
 
