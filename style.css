@@ -36,6 +36,7 @@ header.content{
     padding: 20px;
     z-index: 99;
     top: 0;
+    background:#a7a8ac;
 
     transition: top 0.3s ease-in-out;
  
@@ -83,9 +84,9 @@ header.content{
 
 .content .list-menu li a {
     font-size: 0.8rem;
-    color:  #036096;
+    color: #000000;
     font-weight: bold;
-    text-transform: uppercase;
+    
     
 }
 
@@ -130,13 +131,34 @@ header.content{
     top: 0;
    background:#a7a8ac;
    z-index: -1;
-   display: flex;
+  
  
 
     
    
 }
 
+
+
+.icons2 li a {
+   display: flex;
+   
+   justify-content: space-between;
+
+  
+ 
+
+ 
+   
+  
+}
+
+
+.icons2 i{
+    order: 2;
+  
+ 
+}
 
 .menu-mobile a{
   color: #000000;
@@ -145,6 +167,7 @@ header.content{
   font-size: 1rem;
   margin-top: 60px;
   margin-bottom: -40px;
+
 
 }
 
