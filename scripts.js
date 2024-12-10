@@ -1,22 +1,22 @@
 var itens = document.getElementById('itens');
+var burguer = document.getElementById('botao-burguer');
 
-var burguer = document.getElementById('botao-burguer')
 function mudaoTamanho() {
     if (window.innerWidth >= 768) {
-        itens.style.display = 'none';  // Exibe o menu em telas grandes
+        burguer.style.display = 'none';    // Esconde o botão burguer
+        itens.style.display = 'none';      // Garante que o menu não apareça em telas grandes
     } else {
-        itens.style.display = 'none';   // Esconde o menu em telas pequenas
+        burguer.style.display = 'block';   // Mostra o botão burguer
+        itens.style.display = 'none';      // Esconde o menu por padrão em telas pequenas
     }
-
-   
 }
 
+// Função para mostrar/ocultar o menu quando o botão burguer for clicado
 function clickMenu() {
-    // Altera a visibilidade do menu quando o botão for clicado
     if (itens.style.display === 'block') {
-        itens.style.display = 'none';  // Esconde o menu
+        itens.style.display = 'none';  // Esconde o menu se estiver visível
     } else {
-        itens.style.display = 'block'; // Exibe o menu
+        itens.style.display = 'block'; // Mostra o menu se estiver oculto
     }
 }
 
@@ -29,9 +29,3 @@ window.addEventListener('resize', function() {
 window.onload = function() {
     mudaoTamanho();  // Ajusta o estado do menu no carregamento da página
 };
-
-
-
-const img = document.getElementById('img');
-
-

@@ -1,25 +1,31 @@
 
+/* Em telas grandes,*/
+@media (min-width: 768px) {
 
 
+   .botao-burguer{
+    display: none;
+   }
 
-@media screen and(min-width: 768px) {
-    
+   .menu-mobile{
+    display: none;
 }
-@media (max-width: 768px) {
+
+
+.list-menu{
+    display: block;
+}
+
+ 
+
+   
+}
 
 
    
 
 
-    .inicio h1 {
-        font-size: 36px;
-    }
-
-    .inicio p {
-        font-size: 18px;
-    }
-}
-
+/* Responsivo para telas menores */
 @media (max-width: 870px){
 
     .caixinha{
@@ -30,6 +36,7 @@
         
     }
 
+    
     .content {
         justify-content: space-between;
         padding: 0px 40px;
@@ -46,15 +53,10 @@
 
 
     
-
+ 
 }
 
-
-
-
-
-
-
+/* Para telas pequenas (telefone, até 768px) */
 @media (max-width: 768px) {
     .testimonial-box {
         padding: 20px;
@@ -71,6 +73,9 @@
         font-size: 16px;
     }
 
+     /* Exibe o menu mobile em telas pequenas */
+   
+  
   
 }
   
@@ -82,9 +87,9 @@
         display: none;
     }
 
-    
-
-    
+    .menu-mobile{
+        display: none;
+    }
 
   .logo{
         width: 100%;

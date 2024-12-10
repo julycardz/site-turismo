@@ -63,11 +63,13 @@ header.content{
 .botao-burguer{
 
     border: none;
-    background-color: transparent;
-
     
 }
 
+
+#itens{
+    display: none;
+}
 
 
 
@@ -120,14 +122,15 @@ header.content{
 
 /*estilização mobile */
 
+
 .menu-mobile{
     position: absolute;
     left: 0;
-    width: 50%;
     height: 100vh;
     top: 0;
-   background:#a7a8ac;
-   z-index: -1;
+    background:#a7a8ac;
+    z-index: -1;
+    display: none;
   
 }
 
@@ -249,7 +252,7 @@ main {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
@@ -258,6 +261,12 @@ main {
 
 }
 
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .container-carrossel{
     width: 100%;
@@ -270,10 +279,22 @@ main {
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s;
+ 
+
+  
    
+}
+
+button .saiba-mais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
 }
 .carrossel:hover {
     transform: translateY(-10px);
+    transform: scale(1.1);
+    
 }
 
 .carrossel img {
@@ -316,14 +337,12 @@ main {
     width: 250px;
     border-radius: 10px;
     border: none;
-   
- 
+  
 
 
     
     
 }
-
 
 .preco {
     color: #036096;
