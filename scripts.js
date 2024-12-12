@@ -7,7 +7,7 @@ function mudaoTamanho() {
         itens.style.display = 'none';      // Garante que o menu não apareça em telas grandes
     } else {
         burguer.style.display = 'block';   // Mostra o botão burguer
-        itens.style.display = 'none';      // Esconde o menu por padrão em telas pequenas
+        itens.style.display = 'none';      // oculta os itens
     }
 }
 
